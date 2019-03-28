@@ -3,13 +3,14 @@ package Exercise;
 public class Excercise4_3 {
 	public static void main(String[] args) {
 		int sum = 0;
-		System.out.print("1╨нем 100╠НаЖюг 3юг ╧Х╪Ж : ");
+		
+		System.out.print("1К╤─М└╟ 100О©╫О©╫О©╫О©╫О©╫О©╫ 3О©╫О©╫ О©╫О©╫О©╫ : ");
 		for(int i =1; i<=100; i++) {
 			if(i % 3 ==0) {
 				sum+=i;
 				System.out.print(i+" ");
 			}
 		}
-		System.out.println("\n1╨нем 100╠НаЖюг 3юг ╧Х╪Жюг гу :"+sum);
+		System.out.println("\n1О©╫О©╫О©╫О©╫ 100О©╫О©╫О©╫О©╫О©╫О©╫ 3О©╫О©╫ О©╫О©╫О©╫О©╫О©╫ О©╫О©╫ :"+sum);
 	}
 }
